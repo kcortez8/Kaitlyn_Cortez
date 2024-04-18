@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML 5 Boilerplate</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header_centered">
+      <img src="img/Search.png" class="searchicon" onclick="myFunction()">
+
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <span style="font-size:40px;cursor:pointer;position:relative;top:6px;" onclick="openNav()" class="mobilemenu">&#9776;</span>
+
+    </div>
+
+  </header>
+  <!-- End Header -->
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section>
+
+    <div class="horizontallayout pushme">
+ 
+        <div class="portfolio_spotlight">
+          <img src="img/Monster.jpg">
+        </div>
+
+
+        <div class="work_description">
+          <h5>Monster by Kaitlyn Cortez </h5>
+
+          <p class="monster_large">
+            I was actually not excited about this project when it was first introduced to me because I don't like working with charcoal. I don't like how messy charcoal is and how it can get everywhere and I mean EVERYWHERE. I do love the end result of this project due to the dimensions that I created. 
+          </p>
+
+          <p class="monster_small">
+            This image was one I made in my Drawing class. The size of this monster is on large drawing paper and is made using charcoal.
+          </p>
+
+          
+          <button><a href="portfolio.html">Go Back</a></button>
+        </div>
+
+    </div>
+
+
+  </section>
+
+
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML 5 Boilerplate</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header_centered">
+      <img src="img/Search.png" class="searchicon" onclick="myFunction()">
+
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <span style="font-size:40px;cursor:pointer;position:relative;top:6px;" onclick="openNav()" class="mobilemenu">&#9776;</span>
+
+    </div>
+
+  </header>
+  <!-- End Header -->
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+
+  <section>
+
+    <div class="horizontallayout pushme">
+ 
+        <div class="portfolio_spotlight">
+          <img src="img/Cortez_Cookbook_Page_5.jpg">
+        </div>
+
+
+        <div class="work_description">
+          <h2>Tortellini by Kaitlyn Cortez</h2>
+          
+          <p class="tortellini_large">
+            I really enjoyed being able to make digital artwork because I often draw on paper. I also got to work with colors I usually don't work with.
+          </p>
+
+          <p class="tortellini_small">
+            This image was created for my typography I class. I had to create cookbook spreads of another person's recipe in my class. This specific image was created in procreate and the pattern in the background was created in adobe illustrator. This image is featured on my cookbook spreads.
+          </p>
+
+          
+          <button><a href="portfolio.html">Go Back</a></button>
+        </div>
+
+    </div>
+
+
+  </section>
+
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>

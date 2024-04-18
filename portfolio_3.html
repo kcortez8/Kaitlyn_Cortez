@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML 5 Boilerplate</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header_centered">
+      <img src="img/Search.png" class="searchicon" onclick="myFunction()">
+
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <span style="font-size:40px;cursor:pointer;position:relative;top:6px;" onclick="openNav()" class="mobilemenu">&#9776;</span>
+
+    </div>
+
+  </header>
+  <!-- End Header -->
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+
+  <section>
+
+    <div class="horizontallayout pushme">
+ 
+        <div class="portfolio_spotlight">
+          <img src="img/Turles.jpg">
+        </div>
+
+
+        <div class="work_description">
+          <h3>Turtles in Harmony by Kaitlyn Cortez</h3>
+          
+          <p class="turtles_large">
+            I enjoyed the technique of notan and how much the image overall flows and feels like the ocean. 
+          </p>
+
+          <p class="turtles_small">
+            This image was created in my drawing class. I had to use the technique of notan.
+          </p>
+         
+          <button><a href="portfolio.html">Go Back</a></button>
+        </div>
+
+    </div>
+
+
+  </section>
+
+
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
